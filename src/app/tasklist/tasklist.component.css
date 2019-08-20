@@ -1,0 +1,21 @@
+:host{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.showTasksLabel{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+nav ul{
+    height:200px;
+    width:100%;
+    overflow:hidden;
+    overflow-y: scroll;
+}
+
+.taskList{
+    font-size: 1em;
+}
