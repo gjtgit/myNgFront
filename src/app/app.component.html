@@ -1,4 +1,7 @@
+<input (input) = 'userData.username = $event.target.value'/>
+<input (input) = 'userData.password = $event.target.value'/>
 <button (click)="getToken()" >GetToken</button>
+{{tokenInfo}}
 <app-header></app-header>
 <router-outlet></router-outlet>
 <app-footer></app-footer>
